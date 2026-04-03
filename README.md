@@ -17,7 +17,6 @@ This repository contains the material used for my Formula 1 data analysis master
 
 - `notebooks/` → Jupyter notebooks with the analysis
 - `prompts/` → prompts used during the project and the talk
-- `images/` → exported charts and visuals
 - `requirements.txt` → Python dependencies
 
 ## Main topics
@@ -28,6 +27,15 @@ This repository contains the material used for my Formula 1 data analysis master
 - Undercut detection
 - Race strategy simulation
 - AI-assisted F1 analysis
+
+## Masterclass flow
+
+This repository follows the same structure used during the F1 data analysis masterclass:
+
+1. Data analysis in Jupyter notebooks
+2. Strategy simulation with Monte Carlo
+3. Prompt-based generation of a dashboard
+4. Prompt-based generation of an MCP agent connected to data
 
 ## Requirements
 
