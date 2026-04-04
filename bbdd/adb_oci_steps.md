@@ -1,23 +1,80 @@
 # Crear Autonomous Database en OCI
 
-## 1. Crear ADB
+Guía paso a paso para crear una Autonomous Database (ADB) en Oracle Cloud Infrastructure (OCI).
 
-<img width="452" height="197" alt="image" src="https://github.com/user-attachments/assets/68f56c32-74fe-412e-a72f-b910027fa8e6" />
+---
 
-<img width="452" height="173" alt="image" src="https://github.com/user-attachments/assets/1524e7ad-6fd4-4663-b09e-f241e8168d5d" />
+## 1. Crear Autonomous Database
 
-<img width="452" height="265" alt="image" src="https://github.com/user-attachments/assets/27e2a708-8218-43e3-a93f-984afa74dd52" />
+Accede a **Oracle Cloud Console → Oracle Database → Autonomous Database** y pulsa en **“Create Autonomous Database”**.
 
-<img width="452" height="214" alt="image" src="https://github.com/user-attachments/assets/7576316f-2608-4ea2-b3e4-2746b7b169b7" />
+### Configuración básica
 
-<img width="452" height="266" alt="image" src="https://github.com/user-attachments/assets/634fb8c4-7d34-48fc-b7c3-5e555c3c00bb" />
+Configura los parámetros principales de la base de datos:
 
-<img width="452" height="214" alt="image" src="https://github.com/user-attachments/assets/e49904ac-c140-4364-9de3-8ef6c2ef6554" />
+- Nombre de la base de datos
+- Display name
+- Tipo de workload
+
+![Configuración básica](https://github.com/user-attachments/assets/68f56c32-74fe-412e-a72f-b910027fa8e6)
+
+---
+
+### Selección de tipo y recursos
+
+Selecciona el tipo de despliegue y los recursos:
 
 
+![Tipo y recursos](https://github.com/user-attachments/assets/1524e7ad-6fd4-4663-b09e-f241e8168d5d)
 
-## 2. Descargar wallet
+---
 
-<img width="452" height="230" alt="image" src="https://github.com/user-attachments/assets/375d25c6-a7dc-469d-a7b7-d8af8367cdcb" />
+### Credenciales de administrador
 
-<img width="452" height="254" alt="image" src="https://github.com/user-attachments/assets/f239bf09-9590-427f-8605-6b5cff83c2ac" />
+Define la contraseña del usuario ADMIN.
+
+![Credenciales](https://github.com/user-attachments/assets/27e2a708-8218-43e3-a93f-984afa74dd52)
+
+---
+
+### Crear la base de datos
+
+Revisa la configuración y pulsa en **Create Autonomous Database**.
+
+![Crear ADB](https://github.com/user-attachments/assets/e49904ac-c140-4364-9de3-8ef6c2ef6554)
+
+---
+
+## 2. Descargar Wallet
+
+Una vez creada la base de datos:
+
+1. Accede a la instancia ADB
+2. Pulsa en **Database Connection**
+3. Descarga el **Client Credentials (Wallet)**
+
+![Descargar wallet](https://github.com/user-attachments/assets/375d25c6-a7dc-469d-a7b7-d8af8367cdcb)
+
+---
+
+### Configurar descarga
+
+Introduce una contraseña para proteger el wallet y descárgalo.
+
+![Password wallet](https://github.com/user-attachments/assets/f239bf09-9590-427f-8605-6b5cff83c2ac)
+
+---
+
+## ✅ Resultado
+
+Con esto ya tienes:
+
+- Autonomous Database creada
+- Wallet descargado
+- Listo para conexión desde aplicaciones (Python, SQL Developer, etc.)
+
+---
+
+## 🚀 Siguiente paso
+
+Conectar desde Python usando `oracledb` o integrar con MCP Server para agentes inteligentes.
