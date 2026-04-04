@@ -2,8 +2,7 @@
 
 Carga y enriquece datos de Formula 1 (FastF1) en Oracle Database con un pipeline unificado:
 
-- `f1_oracle_loader.py`: carga base (esquema + sesiones + resultados + vueltas + telemetria + clima)
-- `f1_advanced_loader.py`: migracion avanzada (pit stops, race control, columnas extra, telemetria XY/Z)
+- `f1_oracle_setup.sqñ`: Crea usuario y esquema de base de datos
 - `f1_unified_loader.py`: orquestador unico (base + avanzado) con credenciales parametrizables de forma segura
 
 ## Requisitos
@@ -98,21 +97,6 @@ Extension avanzada:
 - Nuevas columnas en `f1_laps` (speed traps, stint, pit/lap times)
 - Nuevas columnas en `f1_telemetry` (`z_position`, `session_time_ms`)
 
-## Buenas practicas para Git
-
-- No subas wallets ni credenciales.
-- Añade a `.gitignore` cualquier archivo sensible (`*.zip` de wallet, `.env`, dumps, etc.).
-- Rota credenciales si alguna se expuso accidentalmente.
-
-## Troubleshooting
-
-Error de conexion:
-- Verifica `F1_DB_USER`, `F1_DB_DSN`, `F1_DB_PASSWORD`.
-- Si usas wallet, valida la ruta en `F1_DB_WALLET_ZIP`.
-- Prueba `--no-wallet` si tu entorno usa TLS directo.
-
-Error de FastF1/cache:
-- Borra cache y reintenta:
 
 ```bash
 rm -rf ./f1_cache
