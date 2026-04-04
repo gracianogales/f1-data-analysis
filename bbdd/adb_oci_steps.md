@@ -2,11 +2,19 @@
 
 Guía paso a paso para crear una Autonomous Database (ADB) en Oracle Cloud Infrastructure (OCI).
 
+
+
 ---
 
 ## 1. Crear Autonomous Database
 
 Accede a **Oracle Cloud Console → Oracle Database → Autonomous Database** y pulsa en **“Create Autonomous Database”**.
+
+![Configuración básica](https://github.com/user-attachments/assets/68f56c32-74fe-412e-a72f-b910027fa8e6)
+
+---
+
+![Tipo y recursos](https://github.com/user-attachments/assets/1524e7ad-6fd4-4663-b09e-f241e8168d5d)
 
 ### Configuración básica
 
@@ -16,16 +24,13 @@ Configura los parámetros principales de la base de datos:
 - Display name
 - Tipo de workload
 
-![Configuración básica](https://github.com/user-attachments/assets/68f56c32-74fe-412e-a72f-b910027fa8e6)
+![Credenciales](https://github.com/user-attachments/assets/27e2a708-8218-43e3-a93f-984afa74dd52)
 
 ---
 
-### Selección de tipo y recursos
+### Configuración de base de datos
 
-Selecciona el tipo de despliegue y los recursos:
-
-
-![Tipo y recursos](https://github.com/user-attachments/assets/1524e7ad-6fd4-4663-b09e-f241e8168d5d)
+![Configuración DB](https://github.com/user-attachments/assets/03767e63-9b90-4bd6-ad4d-4fede6ba278b)
 
 ---
 
@@ -33,7 +38,8 @@ Selecciona el tipo de despliegue y los recursos:
 
 Define la contraseña del usuario ADMIN.
 
-![Credenciales](https://github.com/user-attachments/assets/27e2a708-8218-43e3-a93f-984afa74dd52)
+![Credenciales](https://github.com/user-attachments/assets/e7f8b6b9-3009-45ed-96a1-280b823c7fe5)
+
 
 ---
 
