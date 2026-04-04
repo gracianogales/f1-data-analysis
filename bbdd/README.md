@@ -2,7 +2,7 @@
 
 Carga y enriquece datos de Formula 1 (FastF1) en Oracle Database con un pipeline unificado:
 
-- `f1_oracle_setup.sqñ`: Crea usuario y esquema de base de datos
+- `f1_oracle_setup.sql`: Crea usuario y esquema de base de datos
 - `f1_unified_loader.py`: orquestador unico (base + avanzado) con credenciales parametrizables de forma segura
 
 ## Requisitos
